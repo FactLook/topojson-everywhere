@@ -9,7 +9,7 @@ gulp.task('topojson', function() {
     .bundle()
     .pipe(source('topojsonAll.js'))
     .pipe(buffer())
-    .pipe(uglify())
+  //  .pipe(uglify())
     .pipe(gulp.dest('./dist/'));
 });
 
